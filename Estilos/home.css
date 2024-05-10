@@ -1,0 +1,37 @@
+header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-family: Georgia, serif;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+.centrar a {
+    margin: 0 20px; 
+}
+
+/* Estilo para el footer */
+footer {
+    position: fixed; 
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    background-color: #ffffff; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+
+.imagen-footer {
+    display: block; 
+    margin: auto; 
+    max-width: 100%; 
+    height: auto; 
+    width: 200px; 
+    padding-top: 20px; 
+}

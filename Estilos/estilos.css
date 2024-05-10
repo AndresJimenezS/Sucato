@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+.productos-titulo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    margin: 15px;
+}
+
+.card-producto {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-producto h5 {
+    font-size: medium;
+}
+
+.contenedor-imagen {
+    max-width: 200px;
+}
+
+.contenedor-imagen img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Estilos para la imagen del footer */
+.imagen-footer {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    padding-top: 20px;
+}
+
+.footer {
+    width: 100% !important;
+    height: 420px !important;
+}
+
+.logueo {
+    margin: 0 auto;
+    max-width: 800px;
+}
